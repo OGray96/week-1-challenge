@@ -1,12 +1,4 @@
-/* Things to fix!
-1. One font family for the whole webpage - COMPLETE
-2. Fix navigation bar
-3. Header div ul can be deleted? - COMPLETE
-4. add alt to all imgs - COMPLETE
-5. Can remove id selectors, none are referenced in the code - COMPLETE
-6. order css code so it follows HTML website layout - COMPLETE
-7. Benefit, img, h3 can be condensed, from 9 selectors to 3 - COMPLETE
-8. Content, img, h2 can be condensed - COMPLETE
+
 
 /* Global selector - places box border and sets padding and margin to zero */
 
@@ -94,6 +86,8 @@ p {
     margin-left: 20px;
 }
 
+/*creates box for each attribute, also colours background and colours text */
+
 .content-attributes {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,11 +96,13 @@ p {
     color: #ffffff;
 }
  
+/* creates settings for the images for the content section */
 
 .content-attributes img{
     max-height: 200px;
 }
 
+/* defines font size and esatblish a margin at the bottom for the h2 semantics in the content section */
 
 .content-attributes h2 {
     margin-bottom: 20px;
@@ -156,6 +152,7 @@ p {
     text-align: center;
 }
 
+/* creates settings for the images for the benefits section */
 
 .benefit-attributes img {
     display: block;
@@ -163,11 +160,15 @@ p {
     max-width: 150px;
 }
 
+/*creates padding for footer and alligns text */
+
 .footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
+
+/* sets text size for h2 in within footer element */
 
 .footer h2 {
     font-size: 20px;
