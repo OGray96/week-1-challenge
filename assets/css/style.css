@@ -21,6 +21,9 @@ body {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /* sets the "Horiseon" title position as inline block and sets font size */
@@ -51,6 +54,12 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+/*changes the colour of the text when cursor hovers over text */
+
+li a:hover{
+    color: #7a7a7a;
 }
 
 /* changes the navigation text to white and removes underline */
